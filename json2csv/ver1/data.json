@@ -1,0 +1,71 @@
+{
+    "name": [ "Atan2() Cordic" ],
+    "description": [
+        "FBH", "atan2"
+    ],
+    "family": [
+        "Kintex-7"
+    ],
+    "device": [
+        "Xc7k160tfbg484-1"
+    ],
+    "clock": [
+        "4"
+    ],
+    "timing": [
+        {
+            "pre-synth": [
+                {
+                    "latency": {
+                        "chls": "34",
+                        "vhls": "1044"
+                    }
+                }
+            ]
+	},
+	{
+            "post-synth": [
+                {
+                    "wns": {
+                        "chls": "-1.527",
+                        "vhls": "1.213"
+                    }
+                },
+                {
+                    "whs": {
+                        "chls": "-1.029",
+                        "vhls": "0.061"
+                    }
+                },
+                {
+                    "wpws": {
+                        "chls": "1.6",
+                        "vhls": "1.6"
+                    }
+                }
+            ]
+	},
+	{
+            "post-route": [
+                {
+                    "wns": {
+                        "chls": "-4.759",
+                        "vhls": "0.789"
+                    }
+                },
+                {
+                    "whs": {
+                        "chls": "0.059",
+                        "vhls": "0.086"
+                    }
+                },
+                {
+                    "wpws": {
+                        "chls": "1.6",
+                        "vhls": "1.6"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+(INSTANCE main
+  (NET
+    (a)
+    (b)
+    (c)
+    (clk)
+    (u)
+    (v)
+    (w)
+    (x)
+    (y)
+    (z)
+  )
+  (INSTANCE and_1
+    (NET
+      (a)
+      (b)
+      (o)
+    )
+  )
+  (INSTANCE and_2
+    (NET
+      (a)
+    )
+  )
+  (INSTANCE or_1
+    (NET
+      (a)
+      (b)
+      (o)
+    )
+  )
+  (INSTANCE or_2
+    (NET
+      (a)
+      (b)
+      (o)
+    )
+  )
+)
+
+
